@@ -1,10 +1,18 @@
 # language: ru
+# encoding: utf-8
+#parent uf:
+@UF11_Прочее
+#parent ua:
+@UA45_Прочая_активность_вообще
 
 @IgnoreOn82Builds
 @IgnoreOnOFBuilds
 @IgnoreOnWeb
 @IgnoreOn836
 @IgnoreOn837
+
+@SingleCodeCoverage
+
 
 
 
@@ -33,7 +41,7 @@
 	И     я перехожу к закладке "Работа с UI"
 
 	И     я нажимаю на кнопку "Добавить известный шаг"
-	Тогда открылось окно "Известные шаги: Vanessa Automation*"
+	Тогда открылось окно "Известные шаги:*"
 	И     я нажимаю на кнопку "Показать перевод"
 	
 	Тогда открылось окно "Таблица"

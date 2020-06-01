@@ -1,4 +1,9 @@
-﻿# language: ru
+# language: ru
+# encoding: utf-8
+#parent uf:
+@UF9_Вспомогательные_фичи
+#parent ua:
+@UA47_Макеты_запуска_VA
 
 @IgnoreOnCIMainBuild
 @DocumentationBuild
@@ -17,4 +22,3 @@
 	Когда Я нажимаю на кнопку диалога выбора файлов
 	И в открывшемся окне я указываю путь к обработке Vanessa-behavior.epf 
 	Тогда открылось окно "*Vanessa Automation"
-
